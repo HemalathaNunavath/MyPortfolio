@@ -1,0 +1,91 @@
+.bg-container {
+    background-image:url("https://res.cloudinary.com/dy2iezllj/image/upload/v1725639653/IMG_20240906_214919_d2rs2w.png");
+    height:150vh;
+    background-size:cover;
+}
+.icons-clrs {
+    color:#0ef;
+    width:100px;
+    height:50px;
+}
+.services {
+    color:Aliceblue;
+    font-size:20px;
+    line-height:0.9;
+    margin-bottom:4 rem;
+}
+.sub-title {
+    text-align:center;
+    font-size:60px;
+    padding-bottom:70px;
+    margin-top:10px;
+}
+.sub-title span {
+    color:#0ef;
+}
+.container{
+    padding:50px;
+}
+.services-list {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(259px,1fr));
+    grid-gap:20px;
+    margin-top:50px;
+}
+.services-list div {
+    background-color:transparent;
+    padding:40px;
+    font-size:13px;
+    font-weight:13px;
+    border-right:10px;
+    border-radius:20px;
+    transition:background 0.5s,transform 0.5s;
+    box-shadow : 1px 1px 20px #012290f7,
+               1px 1px 40px #0053b8f7
+}
+ .services-list div {
+    font-size:30px;
+    font-weight:200;
+    margin-bottom:15px;
+} 
+.services-list div h2 {
+    font-size:30px;
+    font-weight:500;
+    margin-bottom:15px;
+    padding:10px;
+} 
+.services-list div a {
+    text-decoration:none;
+    color:#000000;
+    font-size:12px;
+    margin-top:20px;
+    display:inline-block;
+}
+.btn-box {
+    display:inline-block;
+    padding:12px 28px;
+    background:#0ef;
+    font-size:16px;
+    color:#081b29;
+    margin:5px;
+    letter-spacing: 1px;
+    text-decoration:none;
+    font-weight:600;
+    border-width:0px;
+    
+  }
+  .btn-box:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+  }
+.para{
+    font-size:25px;
+    color:white;
+    padding:10px;
+    margin:10px;
+    font-weight:100;
+}
+.services-list div:hover{
+    transform:translateY(-10px)
+}
