@@ -1,5 +1,4 @@
 import './index.css'
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -24,8 +23,7 @@ const App = () => (
        <div>
         <div className = "contact-list"><IoMdSend className = "icons"/>
         <p className = "details">hemalathanunavath121@gmail.com</p></div>
-        <div className = "contact-list"> <BsFillTelephoneFill className = "icons"/>
-        <p className = "details">6301395902</p></div>
+        
        </div>
        <div>
        <FaFacebook className = "home-sci" />

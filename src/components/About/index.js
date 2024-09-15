@@ -5,7 +5,7 @@ const About = () => (
     <>
     <Header/>
     <div className = "about">
-        <div className ="about-img-1">
+        <div className ="about-img">
         <img src = "https://res.cloudinary.com/dy2iezllj/image/upload/v1725641276/hyma_nqqjy1.png" 
         className = "image-2" alt="image"/>
         </div>
